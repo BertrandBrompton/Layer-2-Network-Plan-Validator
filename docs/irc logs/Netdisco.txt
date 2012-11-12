@@ -1,0 +1,11 @@
+
+(6:02:02 PM) tauk: Does netdisco allow you to compare a layer 2 topology against a plan of some kind?
+(6:02:27 PM) JvI_work: tauk: no, afraid not
+
+
+6:06:57 PM) tauk: Does netdisco have to use proprietry protocols for layer 2 topology mapping?
+(6:08:53 PM) booloo1: Netdisco tries to use whatever works.  It has support for lots of the vendor proprietary L2 protocols, but it also supports LLDP.
+
+(6:14:33 PM) tauk: Does it have trouble mapping networks that use VLANs?
+(6:22:05 PM) booloo1: Not in my experience (assuming you are running current code - there were issues with older code and 802.1q tagged links)
+

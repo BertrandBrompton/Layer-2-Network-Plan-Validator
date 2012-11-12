@@ -1,0 +1,16 @@
+SVN Best Practice
+
+Rule #1: /trunk must compile and pass regression tests at all times. Never ever break the trunk. 
+Rule #2: A single commit (changeset) must not be so large so as to discourage peer-review.
+Rule #3: When you commit a change to the repository, make sure your change reflects a single purpose: the fixing of a specific bug, the addition of a new feature, or some particular task. Your commit will create a new revision number which can forever be used as a "name" for the change. You can mention this revision number in bug databases, or use it as an argument to svn merge should you want to undo the change or port it to another branch.
+Rule #4: When committing the result of a merge, be sure to write a descriptive log message that explains what was merged
+Rule #5: Be precise and exhaustive in your commit comments. 
+Rule #6: ALWAYS do an “update to HEAD” before doing a commit
+Rule #7: 
+
+
+
+Reference sites
+http://svn.apache.org/repos/asf/subversion/trunk/doc/user/svn-best-practices.html
+http://www.iovene.com/21/
+http://solowebstartup.com/top-18-subversion-best-practices

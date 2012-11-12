@@ -1,0 +1,5 @@
+(6:17:42 PM) tauk: Hi, what tools do you guys use to do layer 2 topology maps of networks?
+
+(6:19:38 PM) oister_: tauk: check out http://www.network-weathermap.com
+(6:20:32 PM) UncleDrax: tauk: i have a program that traverse our DNS records for our switch/router domains, and maps them out by CDP/LLDP neighbors.. but then I also spit it out to a Google-Earth overlay weatherman
+(6:20:53 PM) UncleDrax: so really.. just a fancy weathermap

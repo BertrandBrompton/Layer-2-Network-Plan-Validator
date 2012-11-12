@@ -1,0 +1,6 @@
+Reading Status: Not read.
+
+I will need to read this in greater detail once I am at the stage where re-designing my application will be important. Right now I just want some basic functional prototypes soon.
+
+So far it has taught me a great detail of design lessons.
+

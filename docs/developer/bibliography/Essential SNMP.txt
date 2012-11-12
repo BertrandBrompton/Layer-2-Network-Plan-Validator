@@ -1,0 +1,6 @@
+Reading status: On going.
+
+I am finding this a very dense book in terms of technical information.
+
+From what I am reading I only need a very specific subset of the functionality of SNMP and MIBs and most of this is irrelevant to my project.
+
