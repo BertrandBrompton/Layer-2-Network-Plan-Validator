@@ -1,0 +1,22 @@
+Personal TODO
+===========================================
+
+What needs to be done in the future?
+---------------------------------------
+create contact list
+
+Work in Progress
+-------------------------------
+Alternative tool research
+Read Essentials SNMP
+Read Open Source Applications
+Create a prototype using SNMP4J
+
+What has been completed?
+-------------------------------
+set up ant build tool
+installed snmp4j
+set up FitNesse
+made a github repo
+create blog for note taking
+
