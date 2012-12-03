@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/snmp4j-2.1.0/dist/snmp4j-2.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/snmp4j-2.1.0/dist/snmp4j-2.1.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-cypher-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-graph-algo-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-graph-matching-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-jmx-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-kernel-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-lucene-index-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-shell-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-udc-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/scala-library-2.9.1-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/server-api-1.9.M01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

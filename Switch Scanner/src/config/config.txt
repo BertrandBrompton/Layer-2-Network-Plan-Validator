@@ -1,0 +1,16 @@
+local_database_used=neo4j
+remote_database_used=off
+language=en
+default_snmp_version=3
+snmp_compatibility=off
+default_dictionary_file_folder_dir=./src/dict
+encryption=off
+log_level=off
+log_file_path=./log
+root_switch_hostname=off
+root_switch_community=off
+default_oid=off
+debug_mode=off
+print_report_to_text_file=off
+text_file_report_path=off
+interactive_mode=off
