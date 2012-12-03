@@ -34,3 +34,5 @@ Contacts
 ----------
 
 If you want to be informed about my research than check out my blog: http://taukoss.wordpress.com/ I intend to have information on code releases, bug fixes, security fixes, general news and information about the L2NPV on here in the future.
+
+P.S. Please do share your thoughts and commets with us. You can send them to me at beb2@aber.ac.uk - i'd very much love to hear what you think.

@@ -3,3 +3,27 @@
 (6:19:38 PM) oister_: tauk: check out http://www.network-weathermap.com
 (6:20:32 PM) UncleDrax: tauk: i have a program that traverse our DNS records for our switch/router domains, and maps them out by CDP/LLDP neighbors.. but then I also spit it out to a Google-Earth overlay weatherman
 (6:20:53 PM) UncleDrax: so really.. just a fancy weathermap
+
+
+(9:19:03 PM) The topic for #cisco is: .:|:.:|:. Welcome to the unofficial #cisco channel .:|:.:|:. wiki - http://inetpro.org/wiki - Congrats to #cisco's newest CCIE, Plazma!!
+(9:19:11 PM) tauk: Hi
+(9:19:26 PM) davidrothera: evening
+(9:19:31 PM) tauk: :)
+(9:20:11 PM) tauk: Question to everyone who manages/d networks or have seen them. Do most you've seen operate single vendor Cisco networks or mostly heterogenous mixed vendor networks?
+(9:20:45 PM) davidrothera: Our shop is mainly Cisco
+(9:20:51 PM) sartan: consistency in use -- eg access layer, routing, core, firewalls.  vendor-lockin somewhat rare, but it doesn't make sense not to normalize your common technologies
+(9:21:17 PM) sartan: always cisco at the access layer, always juniper at the firewall, always aruba at wireless, etc.  best vendor for the job. large enterprise (70k+ employees)
+(9:21:51 PM) davidrothera: We are mainly cisco because it is what all our staff (noc & support) are trained on and what most of our customers expect for CPE's
+(9:22:09 PM) davidrothera: but as sartan says its usually dependand on who is best at that particular field
+(9:24:24 PM) tauk: How do you manage your switch topologies and make sure they're all cabled up to the design plans? Do you just use port security or some other software tool?
+(9:25:12 PM) sartan: hierarchial design reduces the need to micro-manage the cabling itslef
+(9:25:28 PM) davidrothera: sartan++
+(9:27:24 PM) tauk: Ah... My university's compsci network is horribly designed - it has grown organically over time. For my major project I am developing a software to help manage it, using SNMP to map it. It is a heterogenous network, with hardware that has often been bought ad hoc as needs increased and based on what was cheap at the time.
+(9:27:44 PM) tauk: I was wondering if anyone had such issues too :)
+(9:28:16 PM) davidrothera: I work at an SP so don't really have those kind of issues
+(9:28:35 PM) davidrothera: ours sticks to the campus design pretty closely (access->dist->core)
+(9:28:55 PM) sartan: for instance with a clear distribution layer you could use any combination of vendors for the cheapo access switches you buy for a new expansion or wing
+(9:29:13 PM) sartan: horribly shitty design and makes support a nightmare, but topological wise, not an issue. don't span l2.
+(9:48:22 PM) genec: I'd say inexperienced admins and/or poor budgets may commonly lead to such messes but proper planning of changes can minimize the impact and result in a better system.
+(9:50:18 PM) genec: you should either get the university IT involved or consider hiring a consultant to help you fix it and instruct how to prevent the mess for the future.
+
