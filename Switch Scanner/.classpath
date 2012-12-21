@@ -20,6 +20,12 @@
 	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-1.1.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-adapters-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bertrand/Downloads/commons-logging-1.1.1-bin/commons-logging-1.1.1/commons-logging-tests.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,7 +1,7 @@
-2012-11-29 18:43:50.763+0000: WARNING! Deprecated configuration options used. See manual for details
-2012-11-29 18:43:50.776+0000: cannot configure writers and searchers individually since they go together
-2012-11-29 18:43:50.947+0000: --- INITIALIZED diagnostics START ---
-2012-11-29 18:43:50.951+0000: Neo4j Kernel properties:
+2012-12-10 02:52:13.684+0000: WARNING! Deprecated configuration options used. See manual for details
+2012-12-10 02:52:13.843+0000: cannot configure writers and searchers individually since they go together
+2012-12-10 02:52:14.172+0000: --- INITIALIZED diagnostics START ---
+2012-12-10 02:52:14.174+0000: Neo4j Kernel properties:
     forced_kernel_id=
     read_only=false
     neo4j.ext.udc.host=udc.neo4j.org
@@ -58,7 +58,7 @@
     neo4j.ext.udc.enabled=true
     all_stores_total_mapped_memory_size=500M
     online_backup_port=6362
-2012-11-29 18:43:50.963+0000: Diagnostics providers:
+2012-12-10 02:52:14.178+0000: Diagnostics providers:
     org.neo4j.kernel.configuration.Config
     org.neo4j.kernel.info.DiagnosticsManager
     SYSTEM_MEMORY
@@ -69,35 +69,35 @@
     LIBRARY_PATH
     SYSTEM_PROPERTIES
     NETWORK
-2012-11-29 18:43:50.965+0000: System memory information:
+2012-12-10 02:52:14.179+0000: System memory information:
     Total Physical memory: 5.91 GB
-    Free Physical memory: 3.86 GB
-    Committed virtual memory: 144.60 MB
+    Free Physical memory: 1013.49 MB
+    Committed virtual memory: 143.89 MB
     Total swap space: 11.81 GB
-    Free swap space: 8.86 GB
-2012-11-29 18:43:50.971+0000: JVM memory information:
-    Free  memory: 76.25 MB
+    Free swap space: 4.01 GB
+2012-12-10 02:52:14.279+0000: JVM memory information:
+    Free  memory: 80.12 MB
     Total memory: 90.63 MB
     Max   memory: 1.31 GB
     Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
     Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
-    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=512.38 kB, max=48.00 MB, threshold=0.00 B
-    Memory Pool: PS Eden Space (Heap memory): committed=23.63 MB, used=14.38 MB, max=496.75 MB, threshold=?
+    Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=469.19 kB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=23.63 MB, used=10.50 MB, max=496.75 MB, threshold=?
     Memory Pool: PS Survivor Space (Heap memory): committed=3.94 MB, used=0.00 B, max=3.94 MB, threshold=?
     Memory Pool: PS Old Gen (Heap memory): committed=63.06 MB, used=0.00 B, max=1009.38 MB, threshold=0.00 B
-    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=7.73 MB, max=82.00 MB, threshold=0.00 B
-2012-11-29 18:43:50.982+0000: Operating system information:
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=20.75 MB, used=6.15 MB, max=82.00 MB, threshold=0.00 B
+2012-12-10 02:52:14.336+0000: Operating system information:
     Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
-    Process id: 6108@Bertrand-PC
+    Process id: 9960@Bertrand-PC
     Byte order: LITTLE_ENDIAN
     Local timezone: Europe/London
-2012-11-29 18:43:51.010+0000: JVM information:
+2012-12-10 02:52:14.349+0000: JVM information:
     VM Name: Java HotSpot(TM) 64-Bit Server VM
     VM Vendor: Oracle Corporation
     VM Version: 21.1-b02
     JIT compiler: HotSpot 64-Bit Tiered Compilers
     VM Arguments: [-Dfile.encoding=Cp1252]
-2012-11-29 18:43:51.012+0000: Java classpath:
+2012-12-10 02:52:14.350+0000: Java classpath:
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/snmp4j-2.1.0/dist/snmp4j-2.1.0-javadoc.jar
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-jmx-1.9.M01.jar
      [bootstrap] C:\Program Files\Java\jre7\lib\resources.jar
@@ -111,7 +111,6 @@
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-lucene-index-1.9.M01.jar
      [bootstrap] C:\Program Files\Java\jre7\lib\rt.jar
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/server-api-1.9.M01.jar
-     [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/eclipse-java-indigo-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/166/1/.cp/
      [bootstrap] C:\Program Files\Java\jre7\lib\charsets.jar
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/commons-cli-1.2/commons-cli-1.2.jar
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-kernel-1.9.M01.jar
@@ -122,7 +121,6 @@
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-shell-1.9.M01.jar
      [loader.0] file:/C:/Users/Bertrand/workspace/Switch%20Scanner/bin/
      [classpath] C:\Users\Bertrand\workspace\Switch Scanner\bin
-     [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/eclipse-java-indigo-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/168/1/.cp/
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/eclipse-java-indigo-SR1-win32-x86_64/eclipse/plugins/org.junit_4.8.2.v4_8_2_v20110321-1705/junit.jar
      [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/sunjce_provider.jar
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/Neo4j/neo4j-community-1.9.M01/lib/neo4j-graph-algo-1.9.M01.jar
@@ -135,8 +133,7 @@
      [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/snmp4j-2.1.0/dist/snmp4j-2.1.0.jar
      [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/dnsns.jar
      [loader.1] file:/C:/Program%20Files/Java/jre7/lib/ext/sunec.jar
-     [classpath + loader.0] file:/C:/Users/Bertrand/Downloads/eclipse-java-indigo-SR1-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/167/1/.cp/
-2012-11-29 18:43:51.031+0000: Library path:
+2012-12-10 02:52:14.356+0000: Library path:
     C:\Program Files\Java\jre7\bin
     C:\Windows\Sun\Java\bin
     C:\Windows\System32
@@ -173,7 +170,7 @@
     C:\Users\Bertrand\Downloads\maven\bin
     C:\Users\Bertrand\workspace\Switch Scanner
     C:\Users\Bertrand\workspace\Switch Scanner
-2012-11-29 18:43:51.046+0000: System.properties:
+2012-12-10 02:52:14.378+0000: System.properties:
     sun.boot.library.path = C:\Program Files\Java\jre7\bin
     user.country.format = GB
     path.separator = ;
@@ -190,7 +187,7 @@
     user.timezone = Europe/London
     file.encoding = Cp1252
     user.name = Bertrand
-    sun.java.command = org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 57482 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames test.AllTests
+    sun.java.command = SwitchScanner
     sun.arch.data.model = 64
     user.language = en
     awt.toolkit = sun.awt.windows.WToolkit
@@ -199,7 +196,7 @@
     sun.cpu.endian = little
     sun.desktop = windows
     sun.cpu.isalist = amd64
-2012-11-29 18:43:51.048+0000: Network information:
+2012-12-10 02:52:14.379+0000: Network information:
     Interface Software Loopback Interface 1:
         address: 127.0.0.1
         address: 0:0:0:0:0:0:0:1
@@ -213,85 +210,86 @@
     Interface RAS Async Adapter:
     Interface WAN Miniport (IKEv2):
     Interface Atheros AR9002WB-1NG Wireless Network Adapter:
-        address: 192.168.0.22
+        address: 144.124.120.96
         address: fe80:0:0:0:28d3:9536:4745:a68c%11
     Interface Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.20):
         address: fe80:0:0:0:19f:896:50fa:b3d8%12
     Interface Bluetooth Device (RFCOMM Protocol TDI):
     Interface Bluetooth Device (Personal Area Network):
-    Interface Teredo Tunneling Pseudo-Interface:
-        address: fe80:0:0:0:e0:0:0:0%15
+    Interface Microsoft Teredo Tunneling Adapter:
+        address: fe80:0:0:0:389f:c4a:3f57:ffed%15
     Interface TAP-Win32 Adapter V9:
     Interface Hamachi Network Interface:
     Interface Microsoft 6to4 Adapter:
-    Interface Microsoft ISATAP Adapter #4:
-        address: fe80:0:0:0:0:5efe:c0a8:16%19
     Interface Hamachi Network Interface - VirtualBox Bridged Networking Driver Miniport:
     Interface TAP-Win32 Adapter V9 - VirtualBox Bridged Networking Driver Miniport:
     Interface Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.20) - VirtualBox Bridged Networking Driver Miniport:
     Interface Atheros AR9002WB-1NG Wireless Network Adapter - VirtualBox Bridged Networking Driver Miniport:
     Interface VirtualBox Host-Only Ethernet Adapter:
-    Interface Microsoft 6to4 Adapter #2:
     Interface Microsoft ISATAP Adapter:
+    Interface Microsoft 6to4 Adapter #2:
+        address: 2002:907c:7860:0:0:0:907c:7860
     Interface Microsoft ISATAP Adapter #2:
-    Interface Atheros AR9002WB-1NG Wireless Network Adapter-Native WiFi Filter Driver-0000:
+        address: fe80:0:0:0:200:5efe:907c:7860%26
+    Interface Atheros AR9002WB-1NG Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
     Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
     Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
     Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
     Interface Atheros AR9002WB-1NG Wireless Network Adapter - VirtualBox Bridged Networking Driver Miniport-QoS Packet Scheduler-0000:
     Interface Atheros AR9002WB-1NG Wireless Network Adapter - VirtualBox Bridged Networking Driver Miniport-WFP LightWeight Filter-0000:
-    Interface Atheros AR9002WB-1NG Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+    Interface Atheros AR9002WB-1NG Wireless Network Adapter-Native WiFi Filter Driver-0000:
     Interface Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.20) - VirtualBox Bridged Networking Driver Miniport-QoS Packet Scheduler-0000:
     Interface Atheros AR8151 PCI-E Gigabit Ethernet Controller (NDIS 6.20) - VirtualBox Bridged Networking Driver Miniport-WFP LightWeight Filter-0000:
-2012-11-29 18:43:52.676+0000: --- INITIALIZED diagnostics END ---
-2012-11-29 18:43:52.940+0000: Creating new db @ C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore
-2012-11-29 18:43:53.022+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=230679b mappedMem=23068672b (storeSize=0b)
-2012-11-29 18:43:53.035+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.164+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2012-11-29 18:43:53.175+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2012-11-29 18:43:53.178+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.188+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.200+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2012-11-29 18:43:53.203+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2012-11-29 18:43:53.205+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings] brickCount=0 brickSize=73344b mappedMem=73400320b (storeSize=128b)
-2012-11-29 18:43:53.207+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
-2012-11-29 18:43:53.212+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
-2012-11-29 18:43:53.217+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=82816b mappedMem=82837504b (storeSize=128b)
-2012-11-29 18:43:53.227+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db] brickCount=0 brickSize=859811b mappedMem=85983232b (storeSize=0b)
-2012-11-29 18:43:53.233+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db] brickCount=0 brickSize=1048575b mappedMem=104857600b (storeSize=0b)
-2012-11-29 18:43:53.236+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=23067b mappedMem=23068672b (storeSize=9b)
-2012-11-29 18:43:53.241+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2012-11-29 18:43:53.255+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.264+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.275+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.287+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.299+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.310+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.321+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.332+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.343+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:53.354+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore hit=0 miss=8 switches=0 ooe=0
-2012-11-29 18:43:53.373+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
-2012-11-29 18:43:53.375+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
-2012-11-29 18:43:53.378+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings] brickCount=0 brickSize=73344b mappedMem=73400320b (storeSize=128b)
-2012-11-29 18:43:53.380+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
-2012-11-29 18:43:53.382+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
-2012-11-29 18:43:53.384+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=82816b mappedMem=82837504b (storeSize=128b)
-2012-11-29 18:43:53.387+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db] brickCount=0 brickSize=859811b mappedMem=85983232b (storeSize=0b)
-2012-11-29 18:43:53.389+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db] brickCount=0 brickSize=1048575b mappedMem=104857600b (storeSize=0b)
-2012-11-29 18:43:53.391+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=23067b mappedMem=23068672b (storeSize=9b)
-2012-11-29 18:43:53.395+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
-2012-11-29 18:43:53.443+0000: Opened logical log [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
-2012-11-29 18:43:53.461+0000: TM new log: tm_tx_log.1
-2012-11-29 18:43:53.563+0000: Opened logical log [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\index\lucene.log.1] version=0, lastTxId=1 (clean)
-2012-11-29 18:43:53.580+0000: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
-2012-11-29 18:43:53.581+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1354214632943, id:-830818794755931767, store version: 13561656364791302]
-2012-11-29 18:43:53.581+0000: Kernel version: Neo4j - Graph Database Kernel 1.9.M01
-2012-11-29 18:43:53.582+0000: Neo4j component versions:
-2012-11-29 18:43:53.586+0000:   Neo4j - Graph Database Kernel 1.9.M01
-2012-11-29 18:43:53.587+0000: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
-2012-11-29 18:43:53.595+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
-2012-11-29 18:43:53.597+0000: Store versions:
+    Interface Microsoft ISATAP Adapter #3:
+2012-12-10 02:52:15.617+0000: --- INITIALIZED diagnostics END ---
+2012-12-10 02:52:15.911+0000: Creating new db @ C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore
+2012-12-10 02:52:15.980+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=230679b mappedMem=23068672b (storeSize=0b)
+2012-12-10 02:52:15.987+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.100+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2012-12-10 02:52:16.105+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2012-12-10 02:52:16.107+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.116+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.125+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2012-12-10 02:52:16.126+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2012-12-10 02:52:16.127+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings] brickCount=0 brickSize=73344b mappedMem=73400320b (storeSize=128b)
+2012-12-10 02:52:16.127+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2012-12-10 02:52:16.130+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2012-12-10 02:52:16.133+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=82816b mappedMem=82837504b (storeSize=128b)
+2012-12-10 02:52:16.136+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db] brickCount=0 brickSize=859811b mappedMem=85983232b (storeSize=0b)
+2012-12-10 02:52:16.138+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db] brickCount=0 brickSize=1048575b mappedMem=104857600b (storeSize=0b)
+2012-12-10 02:52:16.139+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=23067b mappedMem=23068672b (storeSize=9b)
+2012-12-10 02:52:16.141+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2012-12-10 02:52:16.147+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.155+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.163+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.173+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.180+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.187+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.194+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.199+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.208+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.219+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore hit=0 miss=8 switches=0 ooe=0
+2012-12-10 02:52:16.229+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2012-12-10 02:52:16.230+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2012-12-10 02:52:16.231+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings] brickCount=0 brickSize=73344b mappedMem=73400320b (storeSize=128b)
+2012-12-10 02:52:16.232+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys] brickCount=0 brickSize=1026b mappedMem=1048576b (storeSize=38b)
+2012-12-10 02:52:16.232+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index] brickCount=0 brickSize=10485b mappedMem=1048576b (storeSize=0b)
+2012-12-10 02:52:16.233+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays] brickCount=0 brickSize=82816b mappedMem=82837504b (storeSize=128b)
+2012-12-10 02:52:16.234+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db] brickCount=0 brickSize=859811b mappedMem=85983232b (storeSize=0b)
+2012-12-10 02:52:16.234+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db] brickCount=0 brickSize=1048575b mappedMem=104857600b (storeSize=0b)
+2012-12-10 02:52:16.235+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db] brickCount=0 brickSize=23067b mappedMem=23068672b (storeSize=9b)
+2012-12-10 02:52:16.236+0000: [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2012-12-10 02:52:16.255+0000: Opened logical log [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2012-12-10 02:52:16.291+0000: TM new log: tm_tx_log.1
+2012-12-10 02:52:16.448+0000: Opened logical log [C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2012-12-10 02:52:16.456+0000: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2012-12-10 02:52:16.456+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1355107935928, id:-5918085553987917013, store version: 13561656364791302]
+2012-12-10 02:52:16.456+0000: Kernel version: Neo4j - Graph Database Kernel 1.9.M01
+2012-12-10 02:52:16.456+0000: Neo4j component versions:
+2012-12-10 02:52:16.457+0000:   Neo4j - Graph Database Kernel 1.9.M01
+2012-12-10 02:52:16.458+0000: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2012-12-10 02:52:16.462+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2012-12-10 02:52:16.462+0000: Store versions:
     Store versions:
       NeoStore v0.A.0
       NodeStore v0.A.0
@@ -301,9 +299,9 @@
       PropertyIndexStore v0.A.0
       StringPropertyStore v0.A.0
       ArrayPropertyStore v0.A.0
-2012-11-29 18:43:53.598+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
-2012-11-29 18:43:53.598+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
-2012-11-29 18:43:53.599+0000: Id usage:
+2012-12-10 02:52:16.463+0000: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2012-12-10 02:52:16.463+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2012-12-10 02:52:16.463+0000: Id usage:
     Id usage:
       NodeStore: used=1 high=0
       RelationshipStore: used=0 high=-1
@@ -312,61 +310,61 @@
       PropertyIndexStore: used=0 high=-1
       StringPropertyStore: used=1 high=0
       ArrayPropertyStore: used=1 high=0
-2012-11-29 18:43:53.602+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
-2012-11-29 18:43:53.602+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
-2012-11-29 18:43:53.602+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
-2012-11-29 18:43:53.603+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
-2012-11-29 18:43:53.609+0000: Disk space on partition (Total / Free / Free %): 274877902848 / 10598273024 / 96
+2012-12-10 02:52:16.464+0000: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2012-12-10 02:52:16.464+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2012-12-10 02:52:16.464+0000: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2012-12-10 02:52:16.464+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2012-12-10 02:52:16.466+0000: Disk space on partition (Total / Free / Free %): 274877902848 / 26576658432 / 90
 Storage files: (filename : modification date - size)
-      active_tx_log: 2012-11-29T18:43:53+0000 - 11.00 B
+      active_tx_log: 2012-12-10T02:52:16+0000 - 11.00 B
       index:
-        lucene-store.db: 2012-11-29T18:43:53+0000 - 40.00 B
-        lucene.log.1: 2012-11-29T18:43:53+0000 - 16.00 B
-        lucene.log.active: 2012-11-29T18:43:53+0000 - 4.00 B
-      - Total: 2012-11-29T18:43:53+0000 - 60.00 B
-      lock: 2012-11-29T18:43:53+0000 - 0.00 B
-      messages.log: 2012-11-29T18:43:50+0000 - 21.68 kB
-      neostore: 2012-11-29T18:43:53+0000 - 54.00 B
-      neostore.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.nodestore.db: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.nodestore.db.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.propertystore.db: 2012-11-29T18:43:53+0000 - 0.00 B
-      neostore.propertystore.db.arrays: 2012-11-29T18:43:53+0000 - 128.00 B
-      neostore.propertystore.db.arrays.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.propertystore.db.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.propertystore.db.index: 2012-11-29T18:43:53+0000 - 0.00 B
-      neostore.propertystore.db.index.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.propertystore.db.index.keys: 2012-11-29T18:43:53+0000 - 38.00 B
-      neostore.propertystore.db.index.keys.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.propertystore.db.strings: 2012-11-29T18:43:53+0000 - 128.00 B
-      neostore.propertystore.db.strings.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.relationshipstore.db: 2012-11-29T18:43:53+0000 - 0.00 B
-      neostore.relationshipstore.db.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.relationshiptypestore.db: 2012-11-29T18:43:53+0000 - 0.00 B
-      neostore.relationshiptypestore.db.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      neostore.relationshiptypestore.db.names: 2012-11-29T18:43:53+0000 - 38.00 B
-      neostore.relationshiptypestore.db.names.id: 2012-11-29T18:43:53+0000 - 9.00 B
-      nioneo_logical.log.1: 2012-11-29T18:43:53+0000 - 16.00 B
-      nioneo_logical.log.active: 2012-11-29T18:43:53+0000 - 4.00 B
-      tm_tx_log.1: 2012-11-29T18:43:53+0000 - 0.00 B
-2012-11-29 18:43:53.642+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
-2012-11-29 18:43:53.649+0000: Started - database is now available
-2012-11-29 18:43:53.649+0000: GC Monitor started. 
-2012-11-29 18:43:53.820+0000: Stopping - database is now unavailable
-2012-11-29 18:43:53.840+0000: Closed log C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\index\lucene.log
-2012-11-29 18:43:53.845+0000: TM shutting down
-2012-11-29 18:43:53.850+0000: GC Monitor stopped. 
-2012-11-29 18:43:53.935+0000: Closed log C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\nioneo_logical.log
-2012-11-29 18:43:53.973+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=1 switches=0 ooe=0
-2012-11-29 18:43:53.983+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
-2012-11-29 18:43:53.995+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.007+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys hit=4 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.021+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index hit=4 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.034+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.056+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db hit=5 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.083+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db hit=1 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.097+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=2 miss=0 switches=0 ooe=0
-2012-11-29 18:43:54.108+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore hit=0 miss=18 switches=0 ooe=0
-2012-11-29 18:43:54.119+0000: NeoStore closed
-2012-11-29 18:43:54.120+0000: --- STOPPING diagnostics START ---
-2012-11-29 18:43:54.120+0000: --- STOPPING diagnostics END ---
+        lucene-store.db: 2012-12-10T02:52:16+0000 - 40.00 B
+        lucene.log.1: 2012-12-10T02:52:16+0000 - 16.00 B
+        lucene.log.active: 2012-12-10T02:52:16+0000 - 4.00 B
+      - Total: 2012-12-10T02:52:16+0000 - 60.00 B
+      lock: 2012-12-10T02:52:16+0000 - 0.00 B
+      messages.log: 2012-12-10T02:52:13+0000 - 21.08 kB
+      neostore: 2012-12-10T02:52:16+0000 - 54.00 B
+      neostore.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.nodestore.db: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.nodestore.db.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.propertystore.db: 2012-12-10T02:52:16+0000 - 0.00 B
+      neostore.propertystore.db.arrays: 2012-12-10T02:52:16+0000 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.propertystore.db.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.propertystore.db.index: 2012-12-10T02:52:16+0000 - 0.00 B
+      neostore.propertystore.db.index.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.propertystore.db.index.keys: 2012-12-10T02:52:16+0000 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.propertystore.db.strings: 2012-12-10T02:52:16+0000 - 128.00 B
+      neostore.propertystore.db.strings.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.relationshipstore.db: 2012-12-10T02:52:16+0000 - 0.00 B
+      neostore.relationshipstore.db.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.relationshiptypestore.db: 2012-12-10T02:52:16+0000 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2012-12-10T02:52:16+0000 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2012-12-10T02:52:16+0000 - 9.00 B
+      nioneo_logical.log.1: 2012-12-10T02:52:16+0000 - 16.00 B
+      nioneo_logical.log.active: 2012-12-10T02:52:16+0000 - 4.00 B
+      tm_tx_log.1: 2012-12-10T02:52:16+0000 - 0.00 B
+2012-12-10 02:52:16.476+0000: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2012-12-10 02:52:16.479+0000: Started - database is now available
+2012-12-10 02:52:16.479+0000: GC Monitor started. 
+2012-12-10 02:52:16.520+0000: Stopping - database is now unavailable
+2012-12-10 02:52:16.531+0000: Closed log C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\index\lucene.log
+2012-12-10 02:52:16.532+0000: TM shutting down
+2012-12-10 02:52:16.546+0000: Closed log C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\nioneo_logical.log
+2012-12-10 02:52:16.548+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.554+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.560+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.566+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.575+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.579+0000: GC Monitor stopped. 
+2012-12-10 02:52:16.581+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.588+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.596+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.603+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2012-12-10 02:52:16.610+0000: C:\Users\Bertrand\workspace\Switch Scanner\target\neo4j-hello-db\neostore hit=0 miss=16 switches=0 ooe=0
+2012-12-10 02:52:16.617+0000: NeoStore closed
+2012-12-10 02:52:16.617+0000: --- STOPPING diagnostics START ---
+2012-12-10 02:52:16.617+0000: --- STOPPING diagnostics END ---
